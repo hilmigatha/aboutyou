@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="animation.js"></script>
+  </head>
+
+  <body>
+    <audio loop id="bgm">
+      <source src="bgm.mp3" type="audio/mpeg" />
+    </audio>
+    <div id="main">
+      <div id="letter">
+        <p>哪天我老了，还跟和你热恋一样，</p>
+        <p>桌前给你发消息，</p>
+        <p>灯盏微黄，窗外风雨千墙，</p>
+        <p>半天酿出一句我想你了，</p>
+        <p>内心的原野，</p>
+        <p>时而流星追月，时而万马奔腾。</p>
+        <br />
+        <p>有时有月亮，</p>
+        <p>我就做一个九曲十八弯的梦，</p>
+        <p>每个转角都与你有关，</p>
+        <p>你对我笑了一下，</p>
+        <p>醒来我就发上一天呆。</p>
+        <br />
+        <p>现在我在长满星星的夜里，</p>
+        <p>阶前红豆坠满枝，</p>
+        <p>醉过知酒浓，</p>
+        <p>无物抵相思。</p>
+      </div>
+      <div id="clock-box">
+        <div id="clock-text">
+          <span class="name">Ms.Wang</span> 和
+          <span class="name">Mr.Qi</span> 在一起
+        </div>
+        <div id="clock"></div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <input type="hidden" id="memorialDate" value="2017-12-25T00:00:00" />
+    <script src="app.js"></script>
+  </body>
+</html>
